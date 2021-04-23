@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="css/fontello.css">
+    <link rel="stylesheet" href="cloverflow.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/css/swiper.min.css">
+
+    <title>categorias</title>
+</head>
+
+<header>
+    <!--Titulo-->
+    <div class="header">
+        <nav>
+            <div class="logo">
+                <img src="img/logodiario.png" width="15%" class="logo">
+            </div>
+            <div class="menu a">
+                <a href="file:///D:/Duoc/Programacion%20Web/Examen%201/CAOS_NEWS/Index.html">Inicio</a>
+                <a href="file:///D:/Duoc/Programacion%20Web/Examen%201/CAOS_NEWS/periodistas.html">Periodistas</a>
+                <a href="file:///D:/Duoc/Programacion%20Web/Examen%201/CAOS_NEWS/categoria.html">Categorias</a>
+            </div>
+            <div class="registro a">
+                <a href="">Ingresar</a>
+                <a href="">Registrarse</a>
+            </div>
+            <div class="categoria a">
+                <a href="file:///D:/Duoc/Programacion%20Web/Examen%201/CAOS_NEWS/seccion_nacional.html">Nacional</a>
+                <a href="file:///D:/Duoc/Programacion%20Web/Examen%201/CAOS_NEWS/seccion_deporte.html">Deportes</a>
+                <a href="file:///D:/Duoc/Programacion%20Web/Examen%201/CAOS_NEWS/seccion_internacional.html">Intercional</a>
+                <a href="file:///D:/Duoc/Programacion%20Web/Examen%201/CAOS_NEWS/seccion_economia.html">Economia</a>
+            </div>
+        </nav>
+    </div>
+</header>
+
+<body class="cuerpo">
+    <div>
+        <h1 class="otitulo">Tencendias</h1>
+    </div>
+
+    <br><br><br><br><br><br><br><br>
+    <section class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide" style="background-image:url(img/vacuna.jpg)">
+                <img src="img/vacuna.jpg" class="entity-img" />
+                <div class="content">
+                    <p class="title" data-swiper-parallax="-30%" data-swiper-parallax-scale=".7">Vacuna contra el
+                        Covid-19</p>
+
+                    <span class="caption" data-swiper-parallax="-20%">Lorem Ipsum has been the industry's standard dummy
+                        text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
+                        make a type specimen book.</span>
+                </div>
+            </div>
+
+
+
+            <div class="swiper-slide" style="background-image:url(img/indencio.jpg)">
+
+                <img src="img/indencio.jpg" class="entity-img" />
+
+                <div class="content">
+                    <p class="title" data-swiper-parallax="-30%" data-swiper-parallax-scale=".7">Indendio en Region de
+                        la Araucania </p>
+                    <span class="caption" data-swiper-parallax="-20%">Lorem Ipsum has been the industry's standard dummy
+                        text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
+                        make a type specimen book.</span>
+                </div>
+            </div>
+
+
+            <div class="swiper-slide" style="background-image:url(img/futbolista.jpg)">
+                <img src="img/futbolista.jpg" class="entity-img" />
+                <div class="content">
+                    <p class="title" data-swiper-parallax="-30%" data-swiper-parallax-scale=".7">Super Clasico Colo Colo
+                        vs U de Chile</p>
+                    <span class="caption" data-swiper-parallax="-20%">Lorem Ipsum has been the industry's standard dummy
+                        text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
+                        make a type specimen book.</span>
+                </div>
+            </div>
+            <div class="swiper-slide" style="background-image:url(img/delicuencia.jpg)">
+                <img src="img/delicuencia.jpg" class="entity-img" />
+                <div class="content">
+                    <p class="title" data-swiper-parallax="-30%" data-swiper-parallax-scale=".7">Delicuencia Aumenta un
+                        45%/
+                    <p>
+                        <span class="caption" data-swiper-parallax="-20%">Lorem Ipsum has been the industry's standard
+                            dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled
+                            it to make a type specimen book.</span>
+                </div>
+            </div>
+            <div class="swiper-slide" style="background-image:url(img/10%.jpg)">
+                <img src="img/10%.jpg" class="entity-img" />
+                <div class="content">
+                    <p class="title" data-swiper-parallax="-30%" data-swiper-parallax-scale=".7">Tercer 10% en disputa
+                    </p>
+                    <span class="caption" data-swiper-parallax="-20%">Lorem Ipsum has been the industry's standard dummy
+                        text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
+                        make a type specimen book.</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev swiper-button-white"></div>
+        <div class="swiper-button-next swiper-button-white"></div>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/js/swiper.min.js"></script>
+    <script>
+
+        var sliderSelector = '.swiper-container',
+            options = {
+                init: false,
+                loop: true,
+                speed: 800,
+                slidesPerView: 2, // or 'auto'
+                // spaceBetween: 10,
+                centeredSlides: true,
+                effect: 'coverflow', // 'cube', 'fade', 'coverflow',
+                coverflowEffect: {
+                    rotate: 50, // Slide rotate in degrees
+                    stretch: 0, // Stretch space between slides (in px)
+                    depth: 100, // Depth offset in px (slides translate in Z axis)
+                    modifier: 1, // Effect multipler
+                    slideShadows: true, // Enables slides shadows
+                },
+                grabCursor: true,
+                parallax: true,
+                pagination: {
+                    el: '.swiper-pagination',
+                    clickable: true,
+                },
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+                breakpoints: {
+                    1023: {
+                        slidesPerView: 1,
+                        spaceBetween: 0
+                    }
+                },
+                // Eventos
+                on: {
+                    imagesReady: function () {
+                        this.el.classList.remove('loading');
+                    }
+                }
+            };
+        var mySwiper = new Swiper(sliderSelector, options);
+
+        // Iniciador
+        mySwiper.init();
+    </script>
+
+
+    <div>
+        <h1 class="otitulo">Categorias</h1>
+    </div>
+</body>
+
+</html>
