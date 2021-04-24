@@ -1,0 +1,18 @@
+#blogc .contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#blogc .contenedor img{
+    width: 250px;
+    height: 250px;
+}
+
+#blogc h4{
+    text-align: center;
+}
+
+#blogc .contenedor article{
+    margin: 45px;
+}
