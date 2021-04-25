@@ -1,0 +1,69 @@
+#inicio_seccion{
+    background: rgb(126, 8, 91);
+    padding: 45px;
+    font-family: serif;
+}
+
+.cuerpo{
+
+    background-color: #B4A7D6;
+    margin-bottom: 100px;
+    }
+.ini_seccion-titulo{
+    background: rgb(96, 15, 143);
+    padding: 20px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    border-bottom: solid 5px rgb(82, 5, 85);
+    border-radius: 8px 8px 0px 0px;
+}
+
+.form-ini{
+    width: 95%;
+    margin:center;
+    max-width: 200px;
+    background: rgb(145, 77, 235);
+    border-radius: 2px;
+    text-align: center;
+
+}
+
+.contenedor-input{
+    padding: 10px 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+input {
+    padding: 25px;
+    margin-bottom: 25px;
+}
+
+
+.col-sm{
+    width: 100%;
+}
+.col-xl{
+    width: 100%;
+}
+
+
+.btn-registrarse{
+    background: rgb(100, 14, 100);
+    color: white;
+    margin:auto;
+
+    
+}
+
+
+#centre{
+    position:absolute;
+left:50%;
+top:50%;
+margin-left:-165px;
+margin-top: -210px;
+width: 330px;
+
+}
