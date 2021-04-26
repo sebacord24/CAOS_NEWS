@@ -5,38 +5,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/fontello.css">
-    <link rel="stylesheet" href="cloverflow.css">
+    <link rel="stylesheet" href="css/cloverflow.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/css/swiper.min.css">
+    <link rel="stylesheet" href="css/categoria.css">
 
     <title>categorias</title>
 </head>
 
 <header>
-    <!--Titulo-->
-    <div class="header">
-        <nav>
+    <section id="header">
+
+
+        <div class="contenedor">
             <div class="logo">
                 <img src="img/logodiario.png" width="15%" class="logo">
             </div>
-            <div class="menu a">
-                <a href="file:///D:/Duoc/Programacion%20Web/Examen%201/CAOS_NEWS/Index.html">Inicio</a>
-                <a href="file:///D:/Duoc/Programacion%20Web/Examen%201/CAOS_NEWS/periodistas.html">Periodistas</a>
-                <a href="file:///D:/Duoc/Programacion%20Web/Examen%201/CAOS_NEWS/categoria.html">Categorias</a>
+            <div class="menu">
+                <a href="Index.html">Inicio</a>
+                <a href="periodistas.html">Periodistas</a>
+                <a href="categoria.html">Categorias</a>
             </div>
-            <div class="registro a">
+            <div class="registro">
                 <a href="">Ingresar</a>
                 <a href="">Registrarse</a>
             </div>
-            <div class="categoria a">
-                <a href="file:///D:/Duoc/Programacion%20Web/Examen%201/CAOS_NEWS/seccion_nacional.html">Nacional</a>
-                <a href="file:///D:/Duoc/Programacion%20Web/Examen%201/CAOS_NEWS/seccion_deporte.html">Deportes</a>
-                <a href="file:///D:/Duoc/Programacion%20Web/Examen%201/CAOS_NEWS/seccion_internacional.html">Intercional</a>
-                <a href="file:///D:/Duoc/Programacion%20Web/Examen%201/CAOS_NEWS/seccion_economia.html">Economia</a>
+            <div class="categoria">
+                <a href="seccion_nacional.html">Nacional</a>
+                <a href="seccion_deporte.html">Deportes</a>
+                <a href="seccion_internacional.html">Intercional</a>
+                <a href="seccion_economia.html">Economia</a>
             </div>
-        </nav>
-    </div>
+        </div>
+    </section>
 </header>
 
 <body class="cuerpo">
@@ -161,10 +163,31 @@
         mySwiper.init();
     </script>
 
+    <section id="blogc">
+        <div>
+            <h1 class="otitulo">Categorias</h1>
+        </div>
 
-    <div>
-        <h1 class="otitulo">Categorias</h1>
-    </div>
+        <div class="contenedor">
+            <article>
+                <img src="img/incendio1.jpg" alt="">
+                <h4>Nacional</h4>
+            </article>
+            <article>
+                <img src="img/alexis.jpg" alt="">
+                <h4>Deportes</h4>
+            </article>
+            <article>
+                <img src="img/internacional1.jpg" alt="">
+                <h4>Internacional</h4>
+            </article>
+            <article>
+                <img src="img/economia1.jpg" alt="">
+                <h4>Economia</h4>
+            </article>
+        </div>
+    </section>
+
 </body>
 
 </html>
