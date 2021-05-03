@@ -1,9 +1,13 @@
-body {
+
+
+
+.body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
-    background: rgb(240, 240, 240);
+    background-color: #8E7CC3;
     background-size: cover;
     background-attachment: fixed;
+
 
 }
 
@@ -24,12 +28,7 @@ body {
     padding: 5px;
 }
 
-h5{
-    text-align: center;
-    color:darkorchid;
-    font-size: 40px;
 
-}
 
 input[type="text"],
 input[type="password"]{
@@ -44,7 +43,7 @@ input[type="password"]{
     margin-bottom: 15px;
     margin-right: 250px;
     margin-left: 250px;
-    border:1px solid #aaa;
+
     display: block;
 
 }
@@ -52,12 +51,14 @@ input[type="password"]{
 
 .button{
     border: none;
-    width: 100%;
+    width: 50%;
     color: white;
     font-size: 20px;
     background: rgb(252, 16, 177);
     padding: 15px 20px;
     border-radius: 5px;
+    margin-left: 247px;
+
     
 }
 
@@ -88,4 +89,5 @@ p{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    border:1px solid #aaa;
 }

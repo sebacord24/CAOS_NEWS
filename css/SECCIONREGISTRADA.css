@@ -1,0 +1,119 @@
+#header .contenedor{
+    background-color:#674EA7;
+    border-radius: 10px;
+    height: 200px;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+
+    }
+
+.otitulo{
+
+    text-align: center;
+    font-size: 50px;
+    margin-top: 45px;
+    margin-bottom: -90px;
+    
+    }
+
+.cuerpo{
+
+    background-color: #B4A7D6;
+    margin-bottom: 100px;
+    }
+
+#header .logo{
+    display: inline-block;
+    margin-bottom: -25px;
+    padding: 0px;
+
+    }
+
+#header .registro{
+display: flex;
+float: right;
+margin-top: -30px;
+margin-right: 15px;
+flex-wrap: wrap;
+
+}
+ #header .registro a{
+
+    text-decoration: none;
+    border: solid 3px black;
+    color:black;
+    background-color: white;
+    text-align: center;
+    padding: 2px;
+
+    }
+
+#header .menu{
+    margin-left: 80px;
+    margin-top: -30px;
+    display: flex;
+    flex-wrap: wrap;
+
+}    
+
+
+#header .menu a{
+
+    text-decoration: none;
+    border: solid 3px black;
+    padding: 1px;
+    color: black;
+    background-color: white;
+    text-align: center;
+    width: 150px;
+
+
+    }
+
+
+#header .categoria{
+
+    display: flex;
+    margin-top: 60px;
+    flex-wrap: wrap;
+
+}
+
+
+#header .categoria a{
+
+    text-decoration: none;
+    border: solid 3px black;
+    color: black;
+    background-color: white;
+    text-align: center;
+    width: 150px;
+    margin-right: 80px;
+    margin-left: 20px;
+    margin-top: 40px;
+    padding: 5px;
+     
+}
+
+#header .registrar a{
+    text-decoration: none;
+    border: solid 3px black;
+    color: black;
+    background-color: white;
+    text-align: center;
+    padding: 4px;
+
+}
+
+#header .registrar{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 900px;
+    margin-top: -40px;
+
+
+   
+    
+}
