@@ -1,12 +1,13 @@
+*{    margin: 0px;
+    padding: 0px;}
 #header .contenedor{
     background-color:#674EA7;
-    border-radius: 10px;
     height: 150px;
+    width: 100%;
     justify-content: center;
     flex-wrap: wrap;
-    
 
-    }
+}
 
 .otitulo{
 
@@ -14,6 +15,7 @@
     font-size: 50px;
     margin-top: 45px;
     margin-bottom: -90px;
+    
     
     }
 
@@ -34,18 +36,17 @@
 display: flex;
 float: right;
 margin-top: -30px;
-margin-right: 15px;
+margin-right: 10px;
 flex-wrap: wrap;
 
 }
  #header .registro a{
-
     text-decoration: none;
-    border: solid 3px black;
+    border: solid 1px black;
     color:black;
     background-color: white;
     text-align: center;
-    padding: 2px;
+    padding: 3px;
 
     }
 
@@ -61,38 +62,34 @@ flex-wrap: wrap;
 #header .menu a{
 
     text-decoration: none;
-    border: solid 3px black;
+    border: solid 1px black;
     padding: 1px;
     color: black;
     background-color: white;
     text-align: center;
-    width: 150px;
-
-
+    width: 80px;
     }
 
 
 #header .categoria{
 
     display: flex;
-    margin-top: 60px;
-    flex-wrap: wrap;
-
+    margin-top: 40px;
+    margin-left:40px ;
 }
 
 
 
 
 #header .categoria a{
-
     text-decoration: none;
-    border: solid 3px black;
+    border: solid 1px black;
     color: black;
     background-color: white;
     text-align: center;
-    width: 150px;
-    margin-right: 80px;
-    margin-left: 20px;
-    padding: 5px;
+    width: 100px;
+    margin-right: 5px;
+    margin-left: 0px;
+    padding: 3px;
      
 }
