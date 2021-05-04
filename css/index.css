@@ -101,3 +101,31 @@ flex-wrap: wrap;
     text-align: right;
     margin-top: 50px;
 }
+
+
+#tabla-index .tabla {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    caption-side: top;
+    border-collapse: collapse;
+}
+
+#tabla-index th{
+    background-color: black;
+    color: white;
+}
+
+
+#tabla-index td,th{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: solid 1px black;
+}
+
+#tabla-index caption{
+    padding-bottom: 10px;
+    font-size: 20px;
+}

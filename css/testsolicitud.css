@@ -1,0 +1,37 @@
+#contenedor .soli{
+    
+        background-color: rgb(179, 155, 201);
+        border: solid 3px black;
+        padding: 5px;
+        margin-top: 100px;
+        margin-left: 140px;
+        margin-right: 140px;
+        justify-content: center;
+        flex-wrap: wrap;
+        display: flex;
+    }
+
+.body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: #8E7CC3;
+    background-size: cover;
+    background-attachment: fixed;
+    
+    
+    }
+    
+#contenedor .titulo{
+    text-align: center;
+    margin-top: 150px;
+    font-size: 35px;
+}
+
+#contenedor .logo{
+    display: inline-block;
+    margin-bottom: -25px;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 0px;
+
+    }
