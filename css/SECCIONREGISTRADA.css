@@ -75,7 +75,7 @@ flex-wrap: wrap;
 #header .categoria{
 
     display: flex;
-    margin-top: 60px;
+    margin-top: 0px;
     flex-wrap: wrap;
 
 }
@@ -113,7 +113,9 @@ flex-wrap: wrap;
     margin-left: 900px;
     margin-top: -40px;
 
-
-   
     
+}
+#header .busqueda{
+    text-align: right;
+    margin-top: 50px;
 }
