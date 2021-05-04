@@ -1,11 +1,11 @@
-#tra .contenedor{
+#tra5 .contenedor{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
 
 
-#tra .contenedor img{
+#tra5 .contenedor img{
     width: 150px;
     height: 150px;
     border: solid 3px black;
@@ -14,7 +14,7 @@
     margin-left: 120px;
 }
 
-#tra h4{
+#tra5 h4{
     text-align: center;
     margin-right: 20px;
     margin-top: 10px;
@@ -29,7 +29,24 @@
 
 .parrafo{
     font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-right: 50px;
+    text-align: left;
+    margin-left: 355px;
+    margin-right: 100px;
+    margin-top: -190px;
+    margin-bottom: 300px;
+    display: flex;
+} 
+
+.img{
+    text-align: left;
+    margin-top: 100px;
     margin-left: 50px;
+    display: flex;
+    width: 250px;
+    height: 200px;
+
+}
+.bordes{
+    border: solid 3px black;
+
 }

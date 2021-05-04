@@ -1,9 +1,13 @@
-body {
+
+
+
+.body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
-    background: rgb(240, 240, 240);
+    background-color: #8E7CC3;
     background-size: cover;
     background-attachment: fixed;
+
 
 }
 
@@ -12,48 +16,49 @@ body {
     box-sizing: border-box;
 }
 
-.contendores{
-    width: 100;
-    padding: 15x;
+.contenedores{
+    margin-bottom: 200px;
+
+
 }
 
 .formularios{
     
     background: rgb(179, 155, 201);
-    margin-top: 150px;
-    padding: 3px;
+    padding: 5px;
 }
 
-h5{
-    text-align: center;
-    color:darkorchid;
-    font-size: 40px;
 
-}
 
 input[type="text"],
 input[type="password"]{
      font-size: 20px;
-     width: 80;
+     width: 485px;
      padding: 10px;
-     border: none;
+
 }
 
 .input-contenedores{
 
     margin-bottom: 15px;
-    border:1px solid #aaa;
+    margin-right: 250px;
+    margin-left: 250px;
+
+    display: block;
+
 }
 
 
 .button{
     border: none;
-    width: 100%;
+    width: 50%;
     color: white;
     font-size: 20px;
     background: rgb(252, 16, 177);
     padding: 15px 20px;
     border-radius: 5px;
+    margin-left: 247px;
+
     
 }
 
@@ -80,4 +85,9 @@ p{
 
 }
 
-
+#cont .contener{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border:1px solid #aaa;
+}
