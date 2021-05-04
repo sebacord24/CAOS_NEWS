@@ -1,19 +1,27 @@
 #tra  img{
     float: left;
-    width: 350px;
-    height: 200px;
+    width: 250px;
+    height: 150px;
     margin: 10px;
+    flex-wrap: wrap;
 }
 .titulo {
     text-align: center;
-    font-size: 30px;    
+    font-size: 35px; 
+    
+    padding-top: 2%;   
 }
 .noticia {
-font-size:16px;
-padding: 20px;
+font-size: 15px;
+flex-wrap: wrap;
+flex: 1;
 
 }
 .datos{
     text-align: right;
     font-size: 15px;
+>>>>>>> master
+}
+#tra {
+    padding-top: 5%;
 }
