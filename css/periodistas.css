@@ -8,10 +8,11 @@
 #tra .contenedor img{
     width: 150px;
     height: 150px;
-    border: solid 3px black;
+    border: solid 3px #674EA7;;
     margin-right: 150px;
     margin-top: 40px;
     margin-left: 120px;
+    border-radius: 10px;
 }
 
 #tra h4{
@@ -20,11 +21,13 @@
     margin-top: 10px;
     font-size: 20px;
 
+
 }
 
 .titulo {
     text-align: center;
-    font-size: 50px;
+    font-size: 40px;
+    margin-top: 20px;
 }
 
 .parrafo{
@@ -32,4 +35,6 @@
     font-family: Arial, Helvetica, sans-serif;
     margin-right: 50px;
     margin-left: 50px;
+    margin-top: 40px;
+    
 }

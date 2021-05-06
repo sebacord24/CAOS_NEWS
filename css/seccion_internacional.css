@@ -1,9 +1,14 @@
+*{    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
 #tra  img{
     float: left;
     width: 250px;
     height: 150px;
     margin: 10px;
-    flex-wrap: wrap;
+
+    border-radius: 10px;
 }
 .titulo {
     text-align: center;
@@ -12,16 +17,22 @@
     padding-top: 2%;   
 }
 .noticia {
-font-size: 15px;
+font-size: 19px;
 flex-wrap: wrap;
-flex: 1;
 
 }
 .datos{
     text-align: right;
     font-size: 15px;
->>>>>>> master
 }
 #tra {
-    padding-top: 5%;
+    padding-top: 60px;
+    margin: 0;
+}
+a:link{
+	color: rgb(0, 0, 0);
+
+}
+a:visited{
+	color: rgb(0, 0, 0);
 }

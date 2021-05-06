@@ -1,5 +1,6 @@
 *{    margin: 0px;
-    padding: 0px;}
+    padding: 0px;
+}
 #header .contenedor{
     background-color:#674EA7;
     height: 150px;
@@ -44,10 +45,10 @@ flex-wrap: wrap;
     text-decoration: none;
     border: solid 1px black;
     color:black;
-    background-color: white;
+    background-color: rgb(142, 49, 179);
     text-align: center;
     padding: 3px;
-
+    border-radius: 10px; 
     }
 
 #header .menu{
@@ -64,38 +65,55 @@ flex-wrap: wrap;
     text-decoration: none;
     border: solid 1px black;
     padding: 1px;
+    margin: 2px;
     color: black;
-    background-color: white;
+    background-color: rgb(142, 49, 179);
     text-align: center;
     width: 80px;
+    border-radius: 10px; 
     }
 
 
 #header .categoria{
 
     display: flex;
-    margin-top: 40px;
-    margin-left:40px ;
-
+    margin-top: 20px;
+    
+    
 }
-
-
-
 
 #header .categoria a{
     text-decoration: none;
     border: solid 1px black;
     color: black;
-    background-color: white;
+    background-color: rgb(142, 49, 179);
     text-align: center;
     width: 100px;
-    margin-right: 5px;
+    margin-right: 1px;
     margin-left: 0px;
-    padding: 3px;
-     
+    padding: 2px;
+    border-radius: 10px; 
 }
 
 #header .busqueda{
-    text-align: right;
-    margin-top: 50px;
+    text-align: center;
+    margin-top: 35px;
+}
+#header .registrar a{
+    text-decoration: none;
+    border: solid 1px black;
+    color: black;
+    background-color: rgb(142, 49, 179);
+    text-align: center;
+    border-radius: 10px; 
+    padding: 4px;
+
+
+}
+
+ .registrar{
+    text-align: center;
+    margin-top:20px;
+
+    
 }
