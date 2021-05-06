@@ -78,8 +78,7 @@ flex-wrap: wrap;
 
     display: flex;
     margin-top: 20px;
-    
-    
+
 }
 
 #header .categoria a{
@@ -99,6 +98,7 @@ flex-wrap: wrap;
     text-align: center;
     margin-top: 35px;
 }
+
 #header .registrar a{
     text-decoration: none;
     border: solid 1px black;
@@ -115,5 +115,33 @@ flex-wrap: wrap;
     text-align: center;
     margin-top:20px;
 
-    
+
+
+
+#tabla-index .tabla {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    caption-side: top;
+    border-collapse: collapse;
+}
+
+#tabla-index th{
+    background-color: black;
+    color: white;
+}
+
+
+#tabla-index td,th{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: solid 1px black;
+}
+
+#tabla-index caption{
+    padding-bottom: 10px;
+    font-size: 20px;
+
 }
