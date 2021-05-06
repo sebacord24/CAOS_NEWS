@@ -24,17 +24,18 @@
 
 .titulo {
     text-align: center;
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .parrafo{
-    font-size: 20px;
+    font-size: 15px;
     text-align: left;
     margin-left: 300px;
     margin-right: 100px;
     margin-top: -250px;
     margin-bottom: 300px;
     display: flex;
+    flex-wrap: wrap;
 } 
 
 .img{
@@ -44,7 +45,4 @@
     display: flex;
 
 }
-.bordes{
-    border: solid 3px black;
 
-}
