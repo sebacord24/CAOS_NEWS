@@ -65,7 +65,7 @@ flex-wrap: wrap;
     text-decoration: none;
     border: solid 1px black;
     padding: 1px;
-    margin: 2px;
+    margin: 1px;
     color: black;
     background-color: rgb(142, 49, 179);
     text-align: center;
@@ -90,7 +90,7 @@ flex-wrap: wrap;
     width: 100px;
     margin-right: 1px;
     margin-left: 0px;
-    padding: 2px;
+    padding: 0px;
     border-radius: 10px; 
 }
 
@@ -135,7 +135,7 @@ flex-wrap: wrap;
 #tabla-index td,th{
     padding-left: 10px;
     padding-right: 10px;
-    padding-top: 5px;
+    padding-top: 20px;
     padding-bottom: 5px;
     border: solid 1px rgb(142, 49, 179);
 }
