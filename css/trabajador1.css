@@ -23,13 +23,14 @@
 }
 
 .titulo {
+    margin-top: 10px;
     text-align: center;
     font-size: 40px;
 }
 
 .parrafo{
     font-size: 15px;
-    text-align: left;
+    text-align: justify;
     margin-left: 300px;
     margin-right: 100px;
     margin-top: -250px;
