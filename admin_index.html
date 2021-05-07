@@ -146,16 +146,16 @@
                 init: false,
                 loop: true,
                 speed: 800,
-                slidesPerView: 2, // or 'auto'
-                // spaceBetween: 10,
+                slidesPerView: 2,
+                
                 centeredSlides: true,
-                effect: 'coverflow', // 'cube', 'fade', 'coverflow',
+                effect: 'coverflow', 
                 coverflowEffect: {
-                    rotate: 50, // Slide rotate in degrees
-                    stretch: 0, // Stretch space between slides (in px)
-                    depth: 100, // Depth offset in px (slides translate in Z axis)
-                    modifier: 1, // Effect multipler
-                    slideShadows: true, // Enables slides shadows
+                    rotate: 50, 
+                    stretch: 0, 
+                    depth: 100, 
+                    modifier: 1, 
+                    slideShadows: true, 
                 },
                 grabCursor: true,
                 parallax: true,
@@ -173,7 +173,7 @@
                         spaceBetween: 0
                     }
                 },
-                // Eventos
+                
                 on: {
                     imagesReady: function () {
                         this.el.classList.remove('loading');
@@ -182,7 +182,7 @@
             };
         var mySwiper = new Swiper(sliderSelector, options);
 
-        // Iniciador
+        
         mySwiper.init();
     </script>
         <section id="tabla-index">
@@ -193,7 +193,7 @@
                         <th scope="col">#</th>
                         <th scope="col">Autor</th>
                         <th scope="col">N° Noticias</th>
-                        <!-- <th scope="col">Handle</th>-->
+                        
                     </tr>
                 </thead>
                 <tbody>
@@ -201,19 +201,19 @@
                         <th scope="row">1</th>
                         <td>Isaac Condesa</td>
                         <td>6</td>
-                       <!-- <td>@mdo</td>-->
+                      
                     </tr>
                     <tr>
                         <th scope="row">2</th>
                         <td>Sebastian Cordero</td>
                         <td>2</td>
-                        <!--<td>@fat</td>-->
+                        
                     </tr>
                     <tr>
                         <th scope="row">3</th>
                         <td>Esteban Espinoza</td>
                         <td>2</td>
-                       <!-- <td>@twitter</td>-->
+                       
                     </tr>
                 </tbody>
             </table>

@@ -1,12 +1,17 @@
 *{    margin: 0px;
     padding: 0px;
 }
+
+  
+  
+
 #header .contenedor{
     background-color:#674EA7;
     height: 150px;
     width: 100%;
     justify-content: center;
     flex-wrap: wrap;
+    
 
 }
 
@@ -48,7 +53,8 @@ flex-wrap: wrap;
     background-color: rgb(142, 49, 179);
     text-align: center;
     padding: 3px;
-    border-radius: 10px; 
+    border-radius: 10px;
+    width: 85px; 
     }
 
 #header .menu{
@@ -64,12 +70,12 @@ flex-wrap: wrap;
 
     text-decoration: none;
     border: solid 1px black;
-    padding: 1px;
+    padding: 3px;
     margin: 1px;
     color: black;
     background-color: rgb(142, 49, 179);
     text-align: center;
-    width: 80px;
+    width: 85px;
     border-radius: 10px; 
     }
 
@@ -95,7 +101,7 @@ flex-wrap: wrap;
 }
 
 #header .busqueda{
-    text-align: center;
+    text-align: right;
     margin-top: 35px;
 }
 
